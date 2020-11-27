@@ -1,0 +1,103 @@
+/* GLOBAL CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+s{
+    color: red;
+    text-decoration: none;
+}
+
+k{
+    color: red;
+    text-align: left;
+}
+
+h1{
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 4.8rem;
+    color: black;
+}
+
+h3{
+    font-size: 3rem;
+    color: black;
+}
+
+h4, h5{
+    font-size: 2.8rem;
+    color: black;
+}
+
+h6{
+    font-size: 2rem;
+    color: black;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-head{
+    background: #5e7669;
+    color: #ffffff;
+}
+
+nav{
+    min-height: 10vf;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 2 1 40rem;
+}
+
+/* HERO */
+.hero{
+    min-height: 90vh;
+    background: url(images.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* FOOTER */
+.footer{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    }
+    
+p{
+      color: black;
+    }
